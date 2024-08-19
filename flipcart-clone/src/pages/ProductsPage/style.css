@@ -1,0 +1,30 @@
+.product-container {
+    width: 80% !important;
+    margin: 1% auto !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+  
+  .product-container .filters {
+    width: 15%;
+    margin-right: 10px;
+    border-radius: 10px;
+  
+    height: 100vh;
+  }
+  .product-container .products {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .product-container .products-main {
+    width: 85%;
+    border-radius: 10px;
+  }
+  
+  .product-container .action-container {
+    display: flex;
+    justify-content: end;
+  }
